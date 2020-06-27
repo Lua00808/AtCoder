@@ -7,3 +7,19 @@ func abs(x int) int {
 	}
 	return x
 }
+
+// 大きい方を返す
+func max(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}
+
+// 小さい方を返す
+func min(a, b int) int {
+	if a < b {
+		return a
+	}
+	return b
+}
